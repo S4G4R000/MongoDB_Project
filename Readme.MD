@@ -39,8 +39,6 @@ The collection for my Production Planning Database are:
 
 ### Production Lines Collection
 
-### Production Runs Collection
-
 ### Inventory Collection
 
 ### Production Tasks Collection
