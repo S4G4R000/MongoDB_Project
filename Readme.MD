@@ -27,3 +27,15 @@ Monitor key performance indicators (KPIs) to track progress and identify areas f
 
 ### Decision Support:
 Leverage data-driven insights and decision support tools to make informed decisions and optimize production processes.
+
+
+##Data Model for My Project
+
+The collection for my Production Planning Database are:
+
+###Products Collection
+###Orders Collection
+###Production Lines Collection
+###Production Runs Collection
+###Inventory Collection
+###Production Tasks Collection
