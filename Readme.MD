@@ -29,16 +29,53 @@ Monitor key performance indicators (KPIs) to track progress and identify areas f
 Leverage data-driven insights and decision support tools to make informed decisions and optimize production processes.
 
 
+
+
 ## Data Model for My Project
 
-The collection for my Production Planning Database are:
+The Production Planning Database consists of the following collections:
 
-### Products Collection
+### Products Collection:
 
-### Orders Collection
+Stores information about the products available for production.
+- Fields:
+  - Name: String (Product name)
+  - Category: String (Product category)
+  - Unit Price: Double (Price per unit)
 
-### Production Lines Collection
+### Orders Collection:
 
-### Inventory Collection
+Manages customer orders and their statuses.
+- Fields:
+  - Customer ID: String (Identifier for the customer)
+  - Products: Array of Objects (List of products in the order)
+    - Name: String (Product name)
+    - Quantity: Integer (Quantity of the product in the order)
+  - Status: String (Status of the order)
 
-### Production Tasks Collection
+### Production Lines Collection:
+
+Stores information about the production lines and their supervisors.
+- Fields:
+  - Name: String (Production line name)
+  - Supervisor: String (Name of the supervisor)
+  - Status: String (Status of the production line)
+
+### Inventory Collection:
+
+Manages the inventory of raw materials and supplies.
+- Fields:
+  - Name: String (Item name)
+  - Supplier: String (Supplier of the item)
+  - Quantity: Integer (Available quantity of the item)
+
+### Production Tasks Collection:
+
+Tracks production tasks and their deadlines.
+- Fields:
+  - Task Name: String (Name of the production task)
+  - Description: String (Description of the task)
+  - Deadline: Date (Deadline for completing the task)
+  - Status: String (Status of the task)
+
+This data model is designed to facilitate efficient management of production planning activities, including tracking inventory, managing orders, monitoring production lines, and scheduling production tasks.
